@@ -435,6 +435,7 @@ header {
 
 header #logo {
   width: 12%;
+  margin-left: 3%;
 }
 
 header nav {

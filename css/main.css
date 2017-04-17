@@ -136,6 +136,16 @@ header nav {
   display: none;
 }
 
+.gauche {
+  display: flex;
+flex-direction: column-reverse;
+}
+
+.topmob {
+  display: flex;
+flex-direction: column;
+height: 187px;
+}
 .gauche p {
   font-size: .9em;
   margin-top: 9%;
@@ -186,12 +196,229 @@ header nav {
   background-color: #D9E6F7;
 }
 
+#pub {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
 .gauche h4, .gauche a figure, .droite {
   display: none;
 }
 
 .milieu figure {
   margin: auto;
+}
+
+.selectregion .selectormob {
+  width: 100%;
+}
+
+.paragraphe p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.paragraphe p a {
+color: #3E73BD;
+text-decoration: none;
+}
+
+.paragraphe p a:hover {
+  text-decoration: underline;
+}
+
+.paragraphe p a:visited {
+  color: #3E73BD;
+}
+
+.footer, .categorie {
+  display: none;
+}
+
+.footermob1 {
+  background-color: #474747;
+color: white;
+display: flex;
+align-items: center;
+width: 100%;
+height: 60px;
+}
+
+em {
+  margin-left: 7%;
+font-style: initial;
+font-size: 12px;
+}
+
+.annonce1, .annonce2, .annonce3, .annonce4 {
+  width: 86%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+.annonce3 {
+  margin-bottom: 0px;
+}
+
+.bordureonly, .bordureonly3 {
+  padding-left: 1%;
+}
+
+.bordureonly, .bordureonly2, .bordureonly3 {
+  border: .5px solid lightgrey;
+  border-radius: 4px;
+}
+
+.bordureonly3 .inputinfos {
+  margin-bottom: 10px;
+}
+
+.bordureonly3 .checkbox {
+  margin-bottom: 15px;
+}
+.annonce1 h2 {
+  color: #989898;
+  border-bottom: 1px solid #989898;
+  margin-top: 2%;
+}
+
+.annonce1 #annoncetitle, .annonce2 #annoncetitle2, .annonce3 #annoncetitle2 {
+  margin-top: 3%;
+font-size: 18px;
+background-color: #666666;
+padding: .8%;
+color: white;
+font-weight: 300;
+}
+
+.annonce1 #cattitle {
+font-size: 14px;
+font-weight: 500;
+}
+.annonce1 #titleann {
+  padding: 0% 18% 0% 0%;
+}
+
+.annonce1 #annoncetext {
+  padding: 0% 18% 20% 0%;
+}
+
+.annonce1 #price {
+  padding: 0% 18% 0% 0%;
+  margin-bottom: 4%;
+}
+
+.annonce1 select {
+  margin:0px;
+}
+
+.annonce1 .titleinfo, .annonce2 .titleinfo, .annonce3 .titleinfo {
+  text-align: left;
+  background-color: white;
+  color: black;
+  margin: 14px 0px;
+  padding: 0px;
+font-size: 14px;
+}
+
+.photos {
+  display: flex;
+  justify-content: flex-start;
+  margin: 25px 5px;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: 100%;
+}
+
+#plus7 {
+  width: 80%;
+}
+
+#plus7 a {
+  width: 50%;
+}
+
+/*.photos a {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: -11%;
+}*/
+
+.photos figure {
+  width: 50%;
+  margin:1% 0%;
+}
+
+
+.annonce2 p {
+  width: 100%;
+  font-size: 13px;
+  background-color: #D9E6F7;
+  border-radius: 6px;
+  padding: 9px 6px;
+  margin-top: 1%;
+}
+
+.bordureonly2 {
+  display: flex;
+}
+
+.textlocation {
+  width: 100%;
+  margin-left: 1%;
+}
+
+.cartelocation {
+  width: 65%;
+margin: 1em;
+}
+
+.cartelocation figure {
+  width: 100%;
+  margin: auto;
+}
+
+#adresse {
+  padding: 3px 234px 0 0;
+text-align: left;
+}
+
+#villeinput {
+  padding: 3px 428px 0 0;
+}
+
+button {
+  border: none;
+background-color: #F9B493;
+font-size: 13px;
+padding: 8px 30px;
+border-radius: 7px;
+color: white;
+}
+
+.annonce4 {
+  margin-top: 5%;
+}
+
+.annonce4 a {
+  text-decoration: none;
+  color: white;
+background-color: #4183D7;
+padding: 12px 70px;
+margin-top: 5%;
+border-radius: 6px;
+font-size: 14px;
+}
+
+#stronger {
+  float: right;
 }
 
 @media (min-width: 1260px){
@@ -276,6 +503,10 @@ margin-left: 3.9%;
   flex-wrap: wrap;
 }
 
+.selectregion .selectormob {
+  display: none;
+}
+
 .gauche {
   width: 32%;
 }
@@ -310,7 +541,7 @@ margin-left: 3.9%;
   font-size: 10px;
   font-weight: bold;
   border-radius: 4px;
-  padding: 5px 25px;
+  padding: 10px 16px;
   margin-bottom: 7%;
 }
 
@@ -333,10 +564,6 @@ margin-left: 3.9%;
   background-color: #D9E6F7;
 }
 
-#pub {
-  width: 100%;
-  margin: auto;
-}
 
 h4{
 
@@ -698,6 +925,9 @@ em {
   margin-left: 7%;
 font-style: initial;
 font-size: 12px;
+}
+.footermob1 {
+  display: none;
 }
 
 /*------PAGE OFFRES------*/

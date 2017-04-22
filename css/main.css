@@ -1032,7 +1032,7 @@ font-size: 12px;
 
 .IDF nav {
   margin-bottom: 2%;
-  width: 73%;
+  width: 100%;
 }
 
 .IDF nav ul {
@@ -1045,6 +1045,10 @@ font-size: 12px;
     padding: 0px 13px;
 }
 
+.offerparticular {
+  display: flex;
+  flex-wrap: wrap;
+}
 #toutes, #particulier, #professionnel{
   border: .5px solid grey;
 padding: 9px 20px;
@@ -1065,8 +1069,52 @@ padding: 9px 20px;
   color: #F56B2A;
 }
 
+.annonces {
+  margin-bottom: 77%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.annonces a {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  text-decoration: none;
+}
+
+.annonces figure {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2%;
+  width: 60%;
+}
+
+.annonces figcaption {
+  width: 100%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  color: #3873BD;
+  font-weight: bolder;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+figcaption em, figcaption span {
+  margin-left: 0%;
+  color: black;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+figcaption strong {
+  color: #F48030;
+  font-size: 18px;
+}
 .alaune {
   width: 25%;
+  margin-right: 8%;
 }
 
 .alaune h4 {

@@ -114,6 +114,8 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0%;
 }
 
 header #menumob {
@@ -489,6 +491,7 @@ button {
         width: 88%;
         margin: auto;
         flex-wrap: wrap;
+        margin-top: 4%;
     }
     .selectregion .selectormob {
         display: none;
@@ -845,6 +848,7 @@ button {
         background-color: #E6E6E6;
         width: 100%;
         height: 188px;
+        margin-top: 4%;
     }
     .inselect, .checkselectin {
         margin-left: 6%;

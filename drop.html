@@ -30,24 +30,36 @@
         </figure>
         <nav>
             <ul id="menu">
-                <a href="index.html">
-                    <li>ACCUEIL</li>
+                <li>
+                    <a href="index.html">
+                    ACCUEIL
                 </a>
-                <a href="drop.html">
-                    <li>DEPOSER UNE ANNONCE</li>
+                </li>
+                <li>
+                    <a href="drop.html">
+                    DEPOSER UNE ANNONCE
                 </a>
-                <a href="offer.html">
-                    <li>OFFRES</li>
+                </li>
+                <li>
+                    <a href="offer.html">
+                    OFFRES
                 </a>
-                <a href="#">
-                    <li>DEMANDES</li>
+                </li>
+                <li>
+                    <a href="#">
+                    DEMANDES
                 </a>
-                <a href="#">
-                    <li>MES ANNONCES</li>
+                </li>
+                <li>
+                    <a href="#">
+                    MES ANNONCES
                 </a>
-                <a href="#">
-                    <li>BOUTIQUES</li>
+                </li>
+                <li>
+                    <a href="#">
+                    BOUTIQUES
                 </a>
+                </li>
             </ul>
             <a href="#" id="connexion">
                 <ul>
@@ -77,57 +89,56 @@
                 <INPUT type="radio" name="tarif" value="jour">Particulier
                 <INPUT type="radio" name="tarif" value="nuit">Professionnel</form>
             <h4 class="titleinfo">Type d'annonce *</h4>
-            <form>
-                <INPUT type="radio" name="tarif" value="jour">Offres
-                <INPUT type="radio" name="tarif" value="nuit">Demandes
 
-                <h4 class="titleinfo">Titre de l'annonce</h4>
-                <input type="text" name="" value="" id="titleann">
+            <INPUT type="radio" name="tarif" value="jour">Offres
+            <INPUT type="radio" name="tarif" value="nuit">Demandes
 
-                <h4 class="titleinfo">Texte de l'annonce *</h4>
-                <input type="text" name="" value="" id="annoncetext">
+            <h4 class="titleinfo">Titre de l'annonce</h4>
+            <input type="text" name="title" value="" id="titleann">
 
-                <h4 class="titleinfo">Prix</h4>
-                <input type="text" name="" value="" id="price">
-                <br>
-                <p><strong>Photos :</strong>Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
-                <article class="photos">
-                    <a href="#" class="photoprincipale">
-                        <figure>
-                            <img src="img/photoprincipale.png" alt="downloadpic1">
-                        </figure>
-                    </a>
+            <h4 class="titleinfo">Texte de l'annonce *</h4>
+            <input type="text" name="text" value="" id="annoncetext">
 
-                    <a href="#" class="photoprincipale">
-                        <figure>
-                            <img src="img/photo2.png" alt="downloadpic2">
-                        </figure>
-                    </a>
+            <h4 class="titleinfo">Prix</h4>
+            <input type="text" name="price" value="" id="price">
+            <br>
+            <p><strong>Photos :</strong>Une annonce avec photo est 7 fois plus consultée qu'une annonce sans photo</p>
+            <article class="photos">
+                <a href="#" class="photoprincipale">
+                    <figure>
+                        <img src="img/photoprincipale.png" alt="downloadpic1">
+                    </figure>
+                </a>
 
-                    <a href="#" class="photoprincipale">
-                        <figure>
-                            <img src="img/photo3.png" alt="downloadpic3">
-                        </figure>
-                    </a>
+                <a href="#" class="photoprincipale">
+                    <figure>
+                        <img src="img/photo2.png" alt="downloadpic2">
+                    </figure>
+                </a>
 
-                    <a href="#" id="plus7">
-                        <figure>
-                            <img src="img/photosupp.png" alt="downloadpic4">
-                        </figure>
-                    </a>
+                <a href="#" class="photoprincipale">
+                    <figure>
+                        <img src="img/photo3.png" alt="downloadpic3">
+                    </figure>
+                </a>
 
-                </article>
+                <a href="#" id="plus7">
+                    <figure>
+                        <img src="img/photosupp.png" alt="downloadpic4">
+                    </figure>
+                </a>
+            </article>
         </div>
     </section>
 
     <section class="annonce2">
-        <h3 id="annoncetitle2">Localisation</h3>
+        <h3 class="annoncetitle2">Localisation</h3>
         <div class="bordureonly2">
             <aside class="textlocation">
                 <h4 class="titleinfo">Ville ou code postal *</h4>
-                <input type="text" name="" value="" id="villeinput">
+                <input type="text" name="city" value="" id="villeinput">
                 <h4 class="titleinfo">Adresse</h4>
-                <input type="text" id="adresse" name="" value="" placeholder="Voie ou numéro + voie"><button type="button" name="button">Valider mon adresse</button>
+                <input type="text" id="adresse" name="adress" value="" placeholder="Voie ou numéro + voie"><button type="button" name="button">Valider mon adresse</button>
                 <p>Complétez votre adresse et les personnes utilisant la recherche autour de soi trouveront plus facilement votre annonce. Si vous ne souhaitez pas renseigner votre adresse exacte, indiquez votre rue sans donner le numéro. Cette information
                     ne sera conservée que le temps de la publication de votre annonce.</p>
             </aside>
@@ -142,28 +153,28 @@
     </section>
 
     <section class="annonce3">
-        <h3 id="annoncetitle2">Vos informations</h3>
+        <h3 class="annoncetitle2">Vos informations</h3>
         <div class="bordureonly3">
             <h4 class="titleinfo">Pseudo *</h4>
-            <input type="text" name="" value="" class="inputinfos">
+            <input type="text" name="pseudo" value="" class="inputinfos">
             <h4 class="titleinfo">Email *</h4>
-            <input type="text" name="" value="" class="inputinfos">
+            <input type="text" name="mail" value="" class="inputinfos">
             <h4 class="titleinfo">Téléphone *</h4>
-            <input type="text" name="" value="" class="inputinfos">
+            <input type="text" name="phone" value="" class="inputinfos">
             <form> <br>
                 <INPUT type="checkbox" name="tarif" value="jour" class="checkbox">Masquer le numéro de téléphone dans l'annonce. <br>
                 <INPUT type="checkbox" name="tarif" value="nuit" class="checkbox">Je ne souhaite pas être sollicité par des entreprises étrangères au sites leboncoin.fr
-                </form>
+            </form>
 
         </div>
-      </section>
+    </section>
 
-      <section class="annonce4">
+    <section class="annonce4">
         <a href="#">Valider</a>
         <strong id="stronger">Champs obligatoires*</strong>
-      </section>
+    </section>
 
-      <section class="footermob">
+    <section class="footermob">
         <em>leboncoin 2006 - 2017</em>
 
-      </section>
+    </section>

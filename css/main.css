@@ -134,7 +134,6 @@ header #menumob:hover {
 
 header figure {
     width: 40%;
-    justify-content: right;
     display: inline-block;
     margin-left: 19%;
 }
@@ -296,7 +295,7 @@ em {
     margin-top: 2%;
 }
 
-.annonce1 #annoncetitle, .annonce2 #annoncetitle2, .annonce3 #annoncetitle2 {
+.annonce1 #annoncetitle, .annonce2 .annoncetitle2, .annonce3 .annoncetitle2 {
     margin-top: 3%;
     font-size: 18px;
     background-color: #666666;
@@ -725,7 +724,7 @@ button {
         border-bottom: 1px solid #989898;
         margin-top: 2%;
     }
-    .annonce1 #annoncetitle, .annonce2 #annoncetitle2, .annonce3 #annoncetitle2 {
+    .annonce1 #annoncetitle, .annonce2 .annoncetitle2, .annonce3 .annoncetitle2 {
         margin-top: 3%;
         font-size: 18px;
         background-color: #666666;
